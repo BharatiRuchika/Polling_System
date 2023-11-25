@@ -1,0 +1,99 @@
+
+
+
+    <link rel="stylesheet" href="/css/home.css">
+   
+
+   
+
+
+    <div id="appContainer">
+    <div class="row">
+        
+        <!-- header of website -->
+        <div class="col-12">
+            <h3 id="header">Polling System API</h3>
+        </div>
+    </div>
+    <div class="row">
+
+        <!-- API'S Container -->
+        <div class="col-8 offset-2" id="polling-container">
+            <div class="row">
+                <div class="12">
+                    <h1>API's</h1>
+                </div>
+            </div>
+            <div class="row">
+                <ul>
+                <div class="col-12">
+                    <!-- API list -->
+                        <li class="list">
+                            <div id="listContainer">
+                                <h4>Create a question</h4>  
+                                <h5>Method: Post</h5>
+                                <h6 class="apiName">API: http://localhost:8000/api/v1/questions/create</h6>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="col-12">
+                         <!-- API list -->
+                        <li class="list">
+                            <div id="listContainer">
+                                <h4>Add options to a question</h4>  
+                                <h5>Method: Post</h5>
+                                <h6 class="apiName">API: http://localhost:8000/api/v1/questions/65608f5f57aed34b81a1b028/options/create</h6>
+                            </div>            
+                        </li>
+                    </div>
+                    <div class="col-12">
+                         <!-- API list -->
+                        <li class="list">
+                            <div id="listContainer">
+                                <h4>Add a vote to an option of question</h4>  
+                                <h5>Method: Post</h5>
+                                <h6 class="apiName">API: http://localhost:8000/api/v1/options/65608f91694bd43c85122d40/add_vote</h6>
+                            </div>            
+                        </li>
+                    </div>
+
+                    <div class="col-12">
+                         <!-- API list -->
+                        <li class="list">
+                            <div id="listContainer">
+                                <h4>Delete a question</h4>  
+                                <h5>Method: Delete</h5>
+                                <h6 class="apiName">API: http://localhost:8000/api/v1/questions/65608b369301f38ba421bbde/delete</h6>
+                            </div>            
+                        </li>
+                    </div>
+
+                    <div class="col-12">
+                         <!-- API list -->
+                        <li class="list">
+                            <div id="listContainer">
+                                <h4>Delete an option</h4>  
+                                <h5>Method: Delete</h5>
+                                <h6 class="apiName">API: http://localhost:8000/api/v1/options/65608e0f8c3033023b7f03c4/delete</h6>
+                            </div>            
+                        </li>
+                    </div>
+
+                    <div class="col-12">
+                         <!-- API list -->
+                        <li class="list">
+                            <div id="listContainer">
+                                <h4>View a question with it’s options and all the votes given to it</h4>  
+                                <h5>Method: Get</h5>
+                                <h6 class="apiName">API: http://localhost:8000/api/v1/questions/65608f5f57aed34b81a1b028</h6>
+                            </div>            
+                        </li>
+                    </div>
+                    
+                    
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
